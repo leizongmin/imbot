@@ -1,0 +1,17 @@
+{
+  "author": "leizongmin <leizongmin@gmail.com> (http://lab.ucdok.com)",
+  "name": "imbot",
+  "description": "An IM Bot modules for NodeJs, use bot.im API.",
+  "version": "0.1.0",
+  "homepage": "http://lab.ucdok.com/imbot",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:leizongmin/imbot.git"
+  },
+  "main": "imbot.js",
+  "engines": {
+    "node": "~v0.4.7"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
