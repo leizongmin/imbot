@@ -1,6 +1,13 @@
 # imbot: an IM Bot modules for NodeJs, use bot.im API. #
+imbot是一个基于bot.im API的NodeJs模块，可以通过imbot来访问bot.im提供的API。
 For detailed information about this, please visit the bot.im API documents: http://bot.im/developers/api.
 如果想获得详细的关于imbot的信息，请浏览bot.im官方API文档：http://bot.im/developers/api。
+
+## Install ##
+```
+npm install imbot
+```
+
 
 ## Quick Start ##
 ```javascript
@@ -15,7 +22,7 @@ var waiter = imbot.createBot({
 
 // 监听消息，详见http://bot.im/developers/api#sendmessage
 waiter.onmessage = function (msg, response) {
-	response('*' + msg.name + '*:' + msg.msg);	// 直接回复消息，也可以用imbot.send来发送
+	response('*' + msg.user + '*:' + msg.msg);	// 直接回复消息，也可以用imbot.send来发送
 }
 
 // 启动机器人

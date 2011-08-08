@@ -84,7 +84,7 @@ var bot = function (conf) {
 		request.on('data', function (chunk) {
 			data += chunk;
 		});
-		request.on('end', function () {	console.log(data.toString());
+		request.on('end', function () {
 			if (data == '') {
 				response.end('Not enough params.');
 				return;
