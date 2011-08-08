@@ -1,15 +1,15 @@
 {
   "author": "leizongmin <leizongmin@gmail.com> (http://lab.ucdok.com)",
   "name": "imbot",
-  "description": "An IM Bot modules for NodeJs, use bot.im API.",
-  "version": "0.1.3",
+  "description": "An IM Bot for NodeJs, base on bot.im API. Simple to create the AIM, Yahoo, Jabber, and MSN bot.",
+  "version": "0.1.4",
   "homepage": "http://lab.ucdok.com/imbot",
   "repository": {
     "type": "git",
     "url": "git@github.com:leizongmin/imbot.git"
   },
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 0.4.7"
   },
   "dependencies": {
     "node-xml": "*"

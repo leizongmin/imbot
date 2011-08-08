@@ -46,7 +46,7 @@ request.makeHttpRequestString = function (token, post) {
 				postData +
 				'\r\n';
 	//console.log(ret);
-	console.log(postData.length);
+	//console.log(postData.length);
 	return ret;
 }
 
