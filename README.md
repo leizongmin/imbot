@@ -23,6 +23,7 @@ var waiter = imbot.createBot({
 // 监听消息，详见http://bot.im/developers/api#sendmessage
 waiter.onmessage = function (msg, response) {
 	response('*' + msg.user + '*:' + msg.msg);	// 直接回复消息，也可以用imbot.send来发送
+	// 如果不回复此消息，必须调用response(); 否则bot.im会返回"Bot connection failed"
 }
 
 // 启动机器人
