@@ -1,4 +1,6 @@
 # imbot: an IM Bot modules for NodeJs, use bot.im API. #
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/leizongmin/imbot.svg)](https://greenkeeper.io/)
 imbot是一个基于bot.im API的NodeJs模块，可以通过imbot来访问bot.im提供的API。
 For detailed information about this, please visit the bot.im API documents: http://bot.im/developers/api.
 如果想获得详细的关于imbot的信息，请浏览bot.im官方API文档：http://bot.im/developers/api。
